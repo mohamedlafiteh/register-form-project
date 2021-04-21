@@ -82,19 +82,16 @@ export class RegisterForm extends React.Component {
         }
       }
       //dob check
-      if (!fields["dob"]) {
-        formIsValid = false;
-        errors["dobEr"] = "Date of birth Cannot be empty";
-      }
-      let dateOfBirth = this.state.fields.dob;
+        let dateOfBirth = this.state.fields.dob;
       var optimizedBirthday = dateOfBirth.replace(/-/g, "/");
       var myBirthday = new Date(optimizedBirthday);
       var currentDate = new Date().toJSON().slice(0, 10) + " 01:00:00";
-
       // // calculate age comparing current date and birthday
       var myAge = ~~((Date.now(currentDate) - myBirthday) / 31557600000);
-
-      if (myAge < 18) {
+      if (!fields["dob"]) {
+        formIsValid = false;
+        errors["dobEr"] = "Date of birth Cannot be empty";
+      } else if (myAge < 18) {
         formIsValid = false;
         errors["dobEr"] = "You are younger than 18";
       }
