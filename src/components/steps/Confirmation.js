@@ -39,7 +39,6 @@ export class Confirmation extends React.Component {
                 </Toolbar>
               </AppBar>
               <div
-                variant="h6"
                 color="inherit"
                 className="title-text-confirm"
                 variant="h6"
@@ -68,11 +67,11 @@ export class Confirmation extends React.Component {
               variant="contained"
               fullWidth
               color="primary"
-              style={{ marginTop: "1rem" }}
               onClick={this.continue}
               style={{
                 width: "20ch",
                 align: "center",
+                marginTop: "1rem" 
               }}
             >
               Confirm
@@ -82,12 +81,12 @@ export class Confirmation extends React.Component {
               variant="contained"
               fullWidth
               color="secondary"
-              style={{ marginTop: "1rem" }}
               onClick={this.back}
               style={{
                 width: "20ch",
                 align: "center",
                 margin: "5px",
+                marginTop: "1rem"
               }}
             >
               Back

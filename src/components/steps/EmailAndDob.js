@@ -37,8 +37,7 @@ export class EmailAndDob extends React.Component {
                   </IconButton>
                 </Toolbar>
               </AppBar>
-              <div
-                variant="h6"
+              <div           
                 color="inherit"
                 className="title-text"
                 variant="h6"
@@ -85,11 +84,11 @@ export class EmailAndDob extends React.Component {
               type="submit"
               variant="contained"
               color="primary"
-              style={{ marginTop: "1rem" }}
               onClick={this.continue}
               style={{
                 width: "20ch",
                 align: "center",
+                marginTop: "1rem"
               }}
             >
               Next
@@ -98,11 +97,11 @@ export class EmailAndDob extends React.Component {
               type="submit"
               variant="contained"
               color="secondary"
-              style={{ marginTop: "1rem" }}
               onClick={this.back}
               style={{
                 width: "20ch",
                 margin: "5px",
+                marginTop: "1rem"
               }}
             >
               Back
