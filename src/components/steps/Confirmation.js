@@ -52,7 +52,7 @@ export class Confirmation extends React.Component {
               <h4 className="result-text-view"> {firstName}</h4>
               <h2 className="text-view">The last name </h2>
               <h4 className="result-text-view"> {lastName}</h4>
-              <h2 className="text-view">The phone number name </h2>
+              <h2 className="text-view">The phone number </h2>
               <h4 className="result-text-view"> {phoneNumber}</h4>
               <h2 className="text-view">The Email</h2>
               <h4 className="result-text-view"> {email}</h4>

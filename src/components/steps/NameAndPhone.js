@@ -34,7 +34,7 @@ export class NameAndPhone extends React.Component {
                   </IconButton>
                 </Toolbar>
               </AppBar>
-              <div variant="h6" color="inherit" className="title-text">
+              <div  variant="h6" color="inherit" className="title-text">
                 Name and phone number
               </div>
             </div>
