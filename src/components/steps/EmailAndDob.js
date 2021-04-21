@@ -63,6 +63,7 @@ export class EmailAndDob extends React.Component {
             <TextField
               id="date"
               type="date"
+              label="Date of Birth"
               onChange={handleChange("dob")}
               defaultValue="dd/mm/yyyy"
               margin="normal"
