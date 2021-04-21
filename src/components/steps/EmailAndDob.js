@@ -9,7 +9,6 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import Container from "@material-ui/core/Container";
 import "../styles/EmailAndDob.css";
-import { Today } from "@material-ui/icons";
 
 export class EmailAndDob extends React.Component {
   continue = (e) => {
