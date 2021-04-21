@@ -1,0 +1,35 @@
+.containerStyle {
+  text-align: center;
+}
+.title-text-confirm {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.text-input {
+  width: 50ch;
+  align: center;
+  float: center;
+}
+
+.error-text {
+  color: red;
+}
+
+.button-style {
+  width: 50ch;
+  margin-top: 1rem;
+}
+.text-view {
+  text-decoration: underLine;
+  font-style: italic;
+}
+.result-text-view {
+  color: #696969;
+}

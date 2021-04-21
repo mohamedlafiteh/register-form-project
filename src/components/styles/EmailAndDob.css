@@ -1,0 +1,22 @@
+.title-text {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #505050;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.text-input {
+  width: 50ch;
+  align: center;
+  float: center;
+}
+
+.error-text {
+  color: red;
+}
+.containerStyle {
+  text-align: center;
+}
