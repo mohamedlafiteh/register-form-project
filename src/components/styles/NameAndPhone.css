@@ -11,8 +11,8 @@
   font-size: 25px;
 }
 
-.text-input {
-  width: 50ch;
+.text-input-page-one {
+  width: 40ch;
   align: center;
   float: center;
 }
@@ -21,7 +21,7 @@
   color: red;
 }
 
-.button-style {
-  width: 50ch;
+.button-style-page-one {
+  width: 40ch;
   margin-top: 1rem;
 }

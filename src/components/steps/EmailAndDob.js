@@ -53,7 +53,7 @@ export class EmailAndDob extends React.Component {
               variant="outlined"
               autoComplete="off"
               required={true}
-              className="text-input"
+              className="text-input-page-two"
             />
             <div className="error-text">
               {values.errors.emailEr ? values.errors.emailEr : ""}
@@ -70,7 +70,7 @@ export class EmailAndDob extends React.Component {
               variant="outlined"
               autoComplete="off"
               required={true}
-              className="text-input"
+              className="text-input-page-two"
             />
             <div className="error-text">
               {values.errors.dobEr ? values.errors.dobEr : ""}
@@ -99,7 +99,6 @@ export class EmailAndDob extends React.Component {
               onClick={this.back}
               style={{
                 width: "20ch",
-                margin: "5px",
                 marginTop: "1rem"
               }}
             >

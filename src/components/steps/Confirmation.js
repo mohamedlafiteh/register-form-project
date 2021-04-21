@@ -84,7 +84,6 @@ export class Confirmation extends React.Component {
               style={{
                 width: "20ch",
                 align: "center",
-                margin: "5px",
                 marginTop: "1rem"
               }}
             >

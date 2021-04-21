@@ -46,7 +46,7 @@ export class NameAndPhone extends React.Component {
               margin="normal"
               variant="outlined"
               autoComplete="off"
-              className="text-input"
+              className="text-input-page-one"
             />
             <div className="error-text">
               {values.errors.firstNameEr ? values.errors.firstNameEr : ""}
@@ -59,7 +59,7 @@ export class NameAndPhone extends React.Component {
               margin="normal"
               variant="outlined"
               autoComplete="off"
-              className="text-input"
+              className="text-input-page-one"
             />
             <div className="error-text">
               {values.errors.lastNameEr ? values.errors.lastNameEr : ""}
@@ -73,7 +73,7 @@ export class NameAndPhone extends React.Component {
               margin="normal"
               variant="outlined"
               autoComplete="off"
-              className="text-input"
+              className="text-input-page-one"
             />
             <div className="error-text">
               {values.errors.phoneNumberEr ? values.errors.phoneNumberEr : ""}
@@ -81,7 +81,7 @@ export class NameAndPhone extends React.Component {
 
             <br />
             <Button
-              className="button-style"
+              className="button-style-page-one"
               variant="contained"
               color="primary"
               onClick={this.continue}
