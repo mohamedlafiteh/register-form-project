@@ -21,12 +21,6 @@ export class EmailAndDob extends React.Component {
   };
   render() {
     const { values, handleChange } = this.props;
-    //Getting today's date
-    var today = new Date();
-    var dd = String(today.getDate()).padStart(2, '0');
-    var mm = String(today.getMonth() + 1).padStart(2, '0'); 
-    var yyyy = today.getFullYear();  
-    today = dd+'/'+mm+'/'+yyyy;
     return (
       <MuiThemeProvider>
         <React.Fragment>
@@ -70,7 +64,7 @@ export class EmailAndDob extends React.Component {
               id="date"
               type="date"
               onChange={handleChange("dob")}
-              defaultValue={today}
+              defaultValue="dd/mm/yyyy"
               margin="normal"
               variant="outlined"
               autoComplete="off"
