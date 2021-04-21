@@ -41,7 +41,6 @@ export class EmailAndDob extends React.Component {
                 color="inherit"
                 className="title-text"
                 variant="h6"
-                color="inherit"
               >
                 Email and Date of Birth
               </div>

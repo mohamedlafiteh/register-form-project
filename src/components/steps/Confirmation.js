@@ -42,7 +42,6 @@ export class Confirmation extends React.Component {
                 color="inherit"
                 className="title-text-confirm"
                 variant="h6"
-                color="inherit"
               >
                 Confirmation
               </div>
