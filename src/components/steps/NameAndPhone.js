@@ -35,11 +35,11 @@ export class NameAndPhone extends React.Component {
                 </Toolbar>
               </AppBar>
               <div  variant="h6" color="inherit" className="title-text">
-                Name and phone number
+                Registration Stage One
               </div>
             </div>
             <TextField
-              label="First Name"
+              label="Enter First Name"
               floatingLabelText="First name"
               onChange={handleChange("firstName")}
               defaultValue={values.firstName}
@@ -53,7 +53,7 @@ export class NameAndPhone extends React.Component {
             </div>
             <br />
             <TextField
-              label="Last Name"
+              label="Enter Last Name"
               onChange={handleChange("lastName")}
               defaultValue={values.lastName}
               margin="normal"
@@ -67,7 +67,7 @@ export class NameAndPhone extends React.Component {
 
             <br />
             <TextField
-              label="Phone Number"
+              label="Enter Phone Number"
               onChange={handleChange("phoneNumber")}
               defaultValue={values.phoneNumber}
               margin="normal"

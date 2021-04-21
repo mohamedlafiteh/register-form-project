@@ -9,6 +9,7 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import Container from "@material-ui/core/Container";
 import "../styles/EmailAndDob.css";
+import { Today } from "@material-ui/icons";
 
 export class EmailAndDob extends React.Component {
   continue = (e) => {
@@ -21,6 +22,12 @@ export class EmailAndDob extends React.Component {
   };
   render() {
     const { values, handleChange } = this.props;
+    //Getting today's date
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0'); 
+    var yyyy = today.getFullYear();  
+    today = dd+'/'+mm+'/'+yyyy;
     return (
       <MuiThemeProvider>
         <React.Fragment>
@@ -42,11 +49,11 @@ export class EmailAndDob extends React.Component {
                 className="title-text"
                 variant="h6"
               >
-                Email and Date of Birth
+                Registration Stage Two
               </div>
             </div>
             <TextField
-              label="E-email"
+              label="Enter email"
               onChange={handleChange("email")}
               defaultValue={values.email}
               margin="normal"
@@ -63,9 +70,8 @@ export class EmailAndDob extends React.Component {
             <TextField
               id="date"
               type="date"
-              label="Date of Birth"
               onChange={handleChange("dob")}
-              defaultValue="2004-05-24"
+              defaultValue={today}
               margin="normal"
               variant="outlined"
               autoComplete="off"

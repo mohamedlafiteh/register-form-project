@@ -88,11 +88,7 @@ export class RegisterForm extends React.Component {
       }
       let dateOfBirth = this.state.fields.dob;
       var optimizedBirthday = dateOfBirth.replace(/-/g, "/");
-
-      // //set date based on birthday at 01:00:00 hours GMT+0100 (CET)
       var myBirthday = new Date(optimizedBirthday);
-
-      // // set current day on 01:00:00 hours GMT+0100 (CET)
       var currentDate = new Date().toJSON().slice(0, 10) + " 01:00:00";
 
       // // calculate age comparing current date and birthday
