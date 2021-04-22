@@ -63,9 +63,8 @@ export class EmailAndDob extends React.Component {
             <TextField
               id="date"
               type="date"
-              label="Date of Birth"
+              label="DoB"
               onChange={handleChange("dob")}
-              defaultValue="dd/mm/yyyy"
               margin="normal"
               variant="outlined"
               autoComplete="off"
